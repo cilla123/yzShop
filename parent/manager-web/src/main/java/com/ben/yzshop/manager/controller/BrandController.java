@@ -20,4 +20,9 @@ public class BrandController {
         return brandService.findAll();
     }
 
+    @RequestMapping("/haha")
+    public String haha(){
+        return "2222";
+    }
+
 }
