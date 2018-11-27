@@ -24,8 +24,8 @@
 	</mvc:annotation-driven>
 
 	<!-- 引用dubbo 服务 -->
-	<dubbo:application name="yzShop-manager-web" />
+	<dubbo:application name="yzshop-manager-web" />
 	<dubbo:registry address="zookeeper://120.132.115.194:2181"/>
-	<dubbo:annotation package="com.yzshop.manager.controller" />
+	<dubbo:annotation package="com.ben.yzshop.manager.controller" />
 
 </beans>
